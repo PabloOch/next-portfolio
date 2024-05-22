@@ -7,6 +7,7 @@ import {
   FaNodeJs,
   FaDocker,
   FaGithub,
+  FaStripe,
   FaInstagram,
   FaLinkedin,
   FaTwitter,
@@ -21,11 +22,14 @@ import {
 } from "react-icons/tb";
 import { BiLogoJquery, BiLogoPostgresql } from "react-icons/bi";
 import {
-  SiPug,
+  SiD3Dotjs,
   SiExpress,
   SiPostman,
   SiGnubash,
   SiNextdotjs,
+  SiCypress,
+  SiThreedotjs,
+  SiUpwork,
 } from "react-icons/si";
 import { AiFillCode } from "react-icons/ai";
 import { FaHashnode } from "react-icons/fa6";
@@ -42,18 +46,12 @@ import { FcElectronics } from "react-icons/fc";
 
 export const links = [
   { text: "Home", path: "/" },
-  { text: "About", path: "/about" },
-  { text: "Skills", path: "/skills" },
   { text: "Projects", path: "/projects" },
-  { text: "Experience", path: "/experience" },
-  { text: "Blogs", path: "/blogs" },
-  { text: "Contact", path: "/contact" },
-  { text: "Resume", path: "/resume" },
 ];
 
 export const interestsData = [
   {
-    interest: "Software Engineering",
+    interest: "Frontend Engineer",
     icon: BsCodeSlash,
   },
   {
@@ -81,7 +79,7 @@ export const interestsData = [
     icon: BsRobot,
   },
   {
-    interest: "Web Scraping",
+    interest: "GIS",
     icon: BsGlobe,
   },
 ];
@@ -116,12 +114,12 @@ export const skillsData = [
     icon: TbBrandBootstrap,
   },
   {
-    name: "C/C++",
-    icon: TbBrandCpp,
+    name: "D3.js",
+    icon: SiD3Dotjs,
   },
   {
-    name: "Python",
-    icon: FaPython,
+    name: "Three.js",
+    icon: SiThreedotjs,
   },
   {
     name: "ReactJS",
@@ -140,8 +138,8 @@ export const skillsData = [
     icon: FaNodeJs,
   },
   {
-    name: "PugJs",
-    icon: SiPug,
+    name: "Stripe",
+    icon: FaStripe,
   },
   {
     name: "Express",
@@ -176,8 +174,8 @@ export const skillsData = [
     icon: SiGnubash,
   },
   {
-    name: "Markdown",
-    icon: BsMarkdown,
+    name: "Cypress",
+    icon: SiCypress ,
   },
 ];
 
@@ -235,104 +233,73 @@ export const projectsData = [
     title: "Movie Magnet",
     image: "movie-magnet",
     link: "https://movie-magnet-smoky.vercel.app/",
-    source: "https://github.com/vaheedsk36/movie-magnet",
+    source: null,
   },
   {
     type: "WEB-APP",
-    title: "Portfolio Website",
-    image: "portfolio-website",
-    link: null,
-    source: "https://github.com/vaheedsk36/portfolio-website-nextjs",
+    title: "Media Place",
+    image: "mediaPL",
+    link: "https://medio-dashboard.netlify.app ",
+    source: null,
   },
   {
     type: "WEB-APP",
-    title: "Weather App",
-    image: "weather-app",
-    link: "https://vaheedsk36.github.io/weather-app/",
-    source: "https://github.com/vaheedsk36/weather-app",
-  },
-  {
-    type: "WEB-APP",
-    title: "Landing Page",
-    image: "landing-page",
-    link: "https://vaheedsk36.github.io/demo-frontend-bootcamp",
-    source: "https://github.com/vaheedsk36/demo-frontend-bootcamp",
-  },
-  {
-    type: "WEB-APP",
-    title: "Guess Game",
-    image: "guess-game",
-    link: "https://vaheedsk36.github.io/guess-my-number",
-    source: "https://github.com/vaheedsk36/guess-my-number",
-  },
-  {
-    type: "WEB-APP",
-    title: "Notes App",
-    image: "react-notes-app",
-    link: "https://vaheedsk36.github.io/react-notes-app/",
-    source: "https://github.com/vaheedsk36/react-notes-app",
-  },
-  {
-    type: "WEB-APP",
-    title: "Dice Multiplayer",
-    image: "dice-multiplayer",
-    link: "https://vaheedsk36.github.io/dice-multiplayer",
-    source: "https://github.com/vaheedsk36/dice-multiplayer",
+    title: "MPOD",
+    image: "MPOD",
+    link: "https://epod-gsap.netlify.app/",
+    source: null,
   },
   {
     type: "PROJECT",
-    title: "Snake Game",
-    image: "snake-game",
-    link: "https://vaheedsk36.github.io/Snake-game",
-    source: "",
-  },
-  {
-    type: "PROJECT",
-    title: "Delta Assistant",
-    image: "delta-assistant",
-    link: "",
-    source: "https://github.com/vaheedsk36/Delta-Desktop-Virtual-Assistant",
+    title: "3D City",
+    image: "3D-City",
+    link: "https://city-viewer.netlify.app/p",
+    source: null,
   },
   {
     type: "WEB-APP",
-    title: "Text Utility App",
-    image: "text-utility-app",
-    link: "https://vaheedsk36.github.io/text-utility-app/",
-    source: "https://github.com/vaheedsk36/text-utility-app",
+    title: "Hoodie Viewer",
+    image: "3D-Hoodie-View",
+    link: "https://hoodies-viewer.netlify.app/",
+    source: null,
+  },
+  {
+    type: "WEB-APP",
+    title: "3D Player",
+    image: "3D-Player",
+    link: "https://jingleboy-playground.netlify.app/",
+    source: null,
+  },
+  {
+    type: "PROJECT",
+    title: "3D Earth",
+    image: "cesium",
+    link: "https://cesium-satellites.netlify.app",
+    source: null,
+  },
+  {
+    type: "PROJECT",
+    title: "TW Dashboard",
+    image: "twReact",
+    link: "https://twdashboardr.netlify.app/",
+    source: null,
+  },
+  {
+    type: "WEB-APP",
+    title: "Data Chart",
+    image: "data-chart",
+    link: "https://chart-ecommerce.netlify.app/",
+    source: null,
   },
 ];
 
 
 export const socialMediaLinks = [
   {
-    href: "https://github.com/vaheedsk36",
-    icon: FaGithub,
+    href: "https://www.upwork.com/freelancers/~013a1399ba8da18bb4?mp_source=share",
+    icon: SiUpwork,
     backgroundColor: "gray.700",
     hoverColor: "gray.600",
-  },
-  {
-    href: "https://www.instagram.com/codersk36/",
-    icon: FaInstagram,
-    backgroundColor: "social.instagram",
-    hoverColor: "social.instagramHover",
-  },
-  {
-    href: "https://www.linkedin.com/in/sk36/",
-    icon: FaLinkedin,
-    backgroundColor: "social.linkedin",
-    hoverColor: "social.linkedinHover",
-  },
-  {
-    href: "https://twitter.com/codersk36",
-    icon: FaTwitter,
-    backgroundColor: "social.twitter",
-    hoverColor: "social.twitterHover",
-  },
-  {
-    href: "https://codersk36.hashnode.dev/",
-    icon: FaHashnode,
-    backgroundColor: "social.hashnode",
-    hoverColor: "social.hashnodeHover",
   },
 ];
 

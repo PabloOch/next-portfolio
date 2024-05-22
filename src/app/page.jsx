@@ -16,8 +16,8 @@ export default function Home() {
 
   useEffect(() => {
     const options = {
-      strings: ["Developer", "Coder", "Tech Blogger", "Tech Enthusiast"],
-      typeSpeed: 50,
+      strings: ["Experienced React, Next.js", "Seasoned Nest.js"],
+      typeSpeed: 80,
       backSpeed: 35,
       loop: true,
     };
@@ -51,7 +51,7 @@ export default function Home() {
           <RevealWrapper className="load-hidden" delay={300}>
             <Image
               objectFit="shrink"
-              src="/images/ar-profile-transformed.png"
+              src="/images/mason.jpeg"
               alt="profile-image"
               width={["13rem", "13rem", "15rem"]}
               height={["13rem", "13rem", "15rem"]}
@@ -80,21 +80,13 @@ export default function Home() {
                 fontFamily="Black Ops One"
                 fontSize={["2.5rem", "3.7rem"]}
               >
-                Masood Akhtar
-              </Heading>
-
-              <Heading
-                fontFamily="Black Ops One"
-                fontSize={["2.5rem", "3.7rem"]}
-                ml={[null, "1rem"]}
-              >
-                Vaheed
+                Mason Bruce
               </Heading>
             </Flex>
           </RevealWrapper>
           <RevealWrapper className="load-hidden" delay={600}>
             <Heading my={3} size="lg" fontFamily="Righteous">
-              I &apos;m <span className="typed-text" ref={typedTextRef}></span>
+              I &apos;m <span className="typed-text" ref={typedTextRef}></span> Engineer
             </Heading>
           </RevealWrapper>
           <RevealWrapper className="load-hidden" delay={700}>

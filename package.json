@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Masood Akhtar Vaheed",
+  "author": "Pablo Balderrama",
   "license": "ISC",
   "dependencies": {
     "@chakra-ui/icons": "^2.1.0",
