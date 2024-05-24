@@ -291,6 +291,13 @@ export const projectsData = [
     link: "https://chart-ecommerce.netlify.app/",
     source: null,
   },
+  {
+    type: "PROJECT",
+    title: "Buggle Chart",
+    image: "buggle-chart",
+    link: "https://buggle-chart.netlify.app/",
+    source: null,
+  },
 ];
 
 
